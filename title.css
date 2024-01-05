@@ -1,0 +1,30 @@
+/* styles.css */
+
+body {
+    text-align: center;
+    background-color: #0f0e0ec5;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+h3, h4 {
+    color: rgb(186, 182, 182);
+}

@@ -1,0 +1,20 @@
+/* logo.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set a background color for better visibility of the glow effect */
+}
+
+img {
+    width: 78%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adjust the margin as needed */
+    filter: drop-shadow(0 0 10px white) drop-shadow(0 0 20px white) drop-shadow(0 0 30px white);
+    transition: filter 0.5s ease-in-out;
+}
+
+img:hover {
+    filter: drop-shadow(0 0 20px white) drop-shadow(0 0 40px white) drop-shadow(0 0 60px white);
+}
